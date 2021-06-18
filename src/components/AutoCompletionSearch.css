@@ -1,0 +1,44 @@
+
+.wrapper {
+    text-align: center;
+    justify-content: center;
+}
+
+.control {
+    height: auto;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.control input {
+    width: 100%;
+    margin-top: 20px;
+    height: 30px;
+    font-size: 25px;
+    border: 0;
+    margin-top: 0;
+}
+
+.list {
+    text-align: center;
+    max-height: 20rem;
+    overflow:scroll;
+    border: 1px solid black;
+    border-top: 0;
+}
+
+.resultSearchItem {
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+.resultSearchItem:hover {
+    background-color: rgb(92, 131, 190);
+    color: white
+}
+
+
+.resultSearchItem:last-child {
+    border-bottom: 0;
+}
+    
